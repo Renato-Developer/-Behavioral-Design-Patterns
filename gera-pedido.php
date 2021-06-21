@@ -10,6 +10,7 @@ use Alura\DesignPattern\{AcoesAoGerarPedido\CriarPedidoNoBanco,
 
 require_once "vendor/autoload.php";
 
+//Parametros obrigatórios passados via CLI
 $valorOrcamento = $argv[1];
 $numeroDeItens = $argv[2];
 $nomeCliente = $argv[3];
