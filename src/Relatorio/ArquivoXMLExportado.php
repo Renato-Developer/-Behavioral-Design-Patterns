@@ -4,6 +4,8 @@
 namespace Alura\DesignPattern\Relatorio;
 
 
+use SimpleXMLElement;
+
 class ArquivoXMLExportado implements ArquivoExportado
 {
     private string $nomeElementoPai;
@@ -15,7 +17,7 @@ class ArquivoXMLExportado implements ArquivoExportado
 
     public function salvar(ConteudoExportado $conteudoExportado): string
     {
-        $elementoXml = new \SimpleXMLElement("<{$this->nomeElementoPai} />");
+        $elementoXml = new SimpleXMLElement("<$this->nomeElementoPai />");
         foreach ($conteudoExportado->conteudo() as $item => $valor) {
             $elementoXml->addChild($item, $valor);
         }

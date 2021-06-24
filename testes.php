@@ -17,8 +17,9 @@ $orcamento->quantidadeDeItens = 6;
 
 
 $calculadoraDeImpostos = new CalculadoraDeImpostos();
-echo $calculadoraDeImpostos->calculaImposto($orcamento, new Iss()) . PHP_EOL;
+echo $calculadoraDeImpostos->calculaImposto($orcamento, new Iss(new Icms())) . PHP_EOL;
 
+/*
 $calculadoraDeImpostos = new CalculadoraDeImpostos();
 echo $calculadoraDeImpostos->calculaImposto($orcamento, new Icms()) . PHP_EOL;
 
@@ -30,3 +31,4 @@ echo $calculadoraDeImpostos->calculaImposto($orcamento, new Icpp()) . PHP_EOL;
 
 $calculadoraDeDescontos = new CalculadoraDeDescontos();
 echo $calculadoraDeDescontos->CalculaDesconto($orcamento) . PHP_EOL;
+*/
