@@ -4,7 +4,6 @@ namespace Alura\DesignPattern;
 
 use Alura\DesignPattern\EstadosOrcamento\EmAprovacao;
 use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
-use Alura\DesignPattern\Orcavel;
 
 Class Orcamento implements Orcavel
 {
@@ -43,7 +42,7 @@ Class Orcamento implements Orcavel
         $this->itens[] = $item;
     }
 
-    public function valor()
+    public function valor(): float
     {
         $this->valor = array_reduce(
             $this->itens,
