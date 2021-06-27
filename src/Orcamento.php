@@ -50,6 +50,7 @@ Class Orcamento implements Orcavel
             0
         );
 
+        sleep(1);
         return $this->valor;
     }
 }
