@@ -13,6 +13,7 @@ e seus fins são puramente didáticos 😄
 
 - ✅ "PHP 7.4" 💪
 - ✅ "DESIGN-PATTERNS":
+- <p></p>
     - <strong>Comportamentais</strong>
     - ✅ Strategy
     - ✅ Chain Of Responsibility
@@ -21,7 +22,7 @@ e seus fins são puramente didáticos 😄
     - ✅ Command
     - ✅ Observer
     - ✅ Iterator
-
+- <p></p>
     - <strong>Estruturais</strong>
     - ✅ Adapter
     - ✅ Bridge
@@ -30,7 +31,7 @@ e seus fins são puramente didáticos 😄
     - ✅ Facade
     - ✅ Proxy
     - ✅ Flywheight
-
+- <p></p>
     - <strong>Criacionais</strong>
     - ✅ Flywheight
     - ✅ Factory
@@ -38,7 +39,7 @@ e seus fins são puramente didáticos 😄
     - ✅ Builder
     - ✅ Prototype
     - ✅ Singleton
-    
+
 ---
 
 <h2 align="center">Technologies 🚀</h2>
